@@ -16,8 +16,8 @@
             "budgets": [
               {
                 "type": "initial",
-                "maximumWarning": "20kb",
-                "maximumError": "25kb"
+                "maximumWarning": "10kb",
+                "maximumError": "15kb"
               }
             ],
             "outputPath": "dist/portfolio",
@@ -40,8 +40,8 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "20kb",
-                  "maximumError": "25kb"
+                  "maximumWarning": "10kb",
+                  "maximumError": "15kb"
                 },
                 {
                   "type": "anyComponentStyle",
