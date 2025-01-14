@@ -1,0 +1,1428 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#home{
+    background-image: url(../assets/images/intro-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+#home .layer{
+    background-color: rgba(20, 20, 25, 0.8);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home .caption{
+    text-align: center;
+    color: white;
+}
+#home .caption h1{
+    font-size: 64;
+    font-family: Poppins, sans-serif;
+    padding: 10px 0;
+    line-height: 83px;
+    
+}
+#home .caption h1::after{
+    content: "  ";
+    animation-name: typing;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+}
+@keyframes typing {
+    0% { content: 'M|'; }
+    1% { content: 'Mo|'; }
+    2% { content: 'Moh|'; }
+    3% { content: 'Moha|'; }
+    4% { content: 'Moham|'; }
+    5% { content: 'Mohamm|'; }
+    6% { content: 'Mohamme|'; }
+    7% { content: 'Mohammed|'; }
+    8% { content: 'Mohammed |'; }
+    9% { content: 'Mohammed L|'; }
+    10% { content: 'Mohammed La|'; }
+    11% { content: 'Mohammed Lam|'; }
+    12% { content: 'Mohammed Lame|'; }
+    13% { content: 'Mohammed Lamei|'; }
+    14% { content: 'Mohammed Lamei'; }
+    15% { content: 'Mohammed Lamei|'; }
+    16% { content: 'Mohammed Lamei'; }
+    17% { content: 'Mohammed Lamei|'; }
+    18% { content: '|'; }
+    19% { content: 'a|'; }
+    20% { content: 'a |'; }
+    21% { content: 'a F|'; }
+    22% { content: 'a Fr|'; }
+    23% { content: 'a Fre|'; }
+    24% { content: 'a Free|'; }
+    25% { content: 'a Freel|'; }
+    26% { content: 'a Freela|'; }
+    27% { content: 'a Freelan|'; }
+    28% { content: 'a Freelanc|'; }
+    29% { content: 'a Freelancer|'; }
+    30% { content: 'a Freelancer'; }
+    31% { content: 'a Freelancer|'; }
+    32% { content: 'a Freelancer'; }
+    33% { content: 'a Freelancer|'; }
+    34% { content: '|'; }
+    35% { content: 'a|'; }
+    36% { content: 'a |'; }
+    37% { content: 'a W|'; }
+    38% { content: 'a We|'; }
+    39% { content: 'a Web|'; }
+    40% { content: 'a Web |'; }
+    41% { content: 'a Web D|'; }
+    42% { content: 'a Web De|'; }
+    43% { content: 'a Web Dev|'; }
+    44% { content: 'a Web Deve|'; }
+    45% { content: 'a Web Devel|'; }
+    46% { content: 'a Web Develo|'; }
+    47% { content: 'a Web Develop|'; }
+    48% { content: 'a Web Develope|'; }
+    49% { content: 'a Web Developer|'; }
+    50% { content: 'a Web Developer'; }
+    51% { content: 'a Web Developer|'; }
+    52% { content: 'a Web Developer'; }
+    53% { content: 'a Web Developer|'; }
+    54% { content: '|'; }
+    55% { content: 'M|'; }
+    56% { content: 'Mo|'; }
+    57% { content: 'Moh|'; }
+    58% { content: 'Moha|'; }
+    59% { content: 'Moham|'; }
+    60% { content: 'Mohamm|'; }
+    61% { content: 'Mohamme|'; }
+    62% { content: 'Mohammed|'; }
+    63% { content: 'Mohammed |'; }
+    64% { content: 'Mohammed L|'; }
+    65% { content: 'Mohammed La|'; }
+    66% { content: 'Mohammed Lam|'; }
+    67% { content: 'Mohammed Lame|'; }
+    68% { content: 'Mohammed Lamei|'; }
+    69% { content: 'Mohammed Lamei'; }
+    70% { content: 'Mohammed Lamei|'; }
+    71% { content: 'Mohammed Lamei'; }
+    72% { content: 'Mohammed Lamei|'; }
+    73% { content: '|'; }
+    74% { content: 'a|'; }
+    75% { content: 'a |'; }
+    76% { content: 'a F|'; }
+    77% { content: 'a Fr|'; }
+    78% { content: 'a Fre|'; }
+    79% { content: 'a Free|'; }
+    80% { content: 'a Freel|'; }
+    81% { content: 'a Freela|'; }
+    82% { content: 'a Freelan|'; }
+    83% { content: 'a Freelanc|'; }
+    84% { content: 'a Freelancer|'; }
+    85% { content: 'a Freelancer'; }
+    86% { content: 'a Freelancer|'; }
+    87% { content: 'a Freelancer'; }
+    88% { content: 'a Freelancer|'; }
+    89% { content: '|'; }
+    90% { content: 'a|'; }
+    91% { content: 'a |'; }
+    92% { content: 'a W|'; }
+    93% { content: 'a We|'; }
+    94% { content: 'a Web|'; }
+    95% { content: 'a Web |'; }
+    96% { content: 'a Web D|'; }
+    97% { content: 'a Web De|'; }
+    98% { content: 'a Web Dev|'; }
+    99% { content: 'a Web Devel|'; }
+    100% { content: 'a Web Developer'; }
+}
+
+#home .caption h3{
+    font-size: 28;
+    font-family: Poppins, sans-serif;
+    padding: 10px 0;
+    font-weight: 500;
+    line-height: 50px;
+}
+#home .caption h4{
+    font-size: 21;
+    font-family: Poppins, sans-serif;
+    padding: 10px 0;
+    font-weight: 500;
+    line-height: 38px;
+}
+#home .caption button{
+    width: 150px;
+    height: 60px;
+    padding: 10px 10px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: rgb(32, 201, 151);
+    border: solid rgb(32, 201, 151);
+    font-size: 16;
+    font-family: Poppins, sans-serif;
+    margin: 15px 0px;
+    transition-duration: 0.5s;
+}
+#home .caption button:hover{
+    background-color: rgb(32, 201, 151);
+    color: white;
+}
+.navbar .navbar-list ul{
+    display: flex;
+    justify-content: center;
+    
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    z-index: 200;
+}
+.navbar .navbar-list li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 24px;
+    color: white;
+    padding: 25px 15px;
+    font-weight: 300;
+    
+    
+}
+.navbar .navbar-list a{
+    color: white;
+    text-decoration: none;
+}
+.navbar .navbar-list span{
+    color: rgb(32, 201, 151);
+}
+.navbar .navbar-list ul::before{
+    content: "Mohammed Lamei";
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    font-family: 'Poppins', sans-serif;
+
+    line-height: 24px;
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+}
+.navbar .navbar-list a:hover{
+    color: rgb(32, 201, 151);
+    transition-duration: 0.5s;
+}
+.gear{
+    position: fixed;
+    right: 0;
+    top: 270px;
+    background-color: rgb(85, 84, 84);
+    color: white;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about{
+    padding: 50px 0;
+}
+#about h2{
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 70px;
+    z-index: 100;
+    position: relative;
+}
+#about h2::after{
+    content: "ABOUT ME";
+    color: rgba(0, 0, 0,0.05);
+    z-index: 1;
+    font-size: 360%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 2%;
+}
+#about .caption{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+#about .content{
+    width: 55%;
+    margin-left: 40px;
+    
+}
+#about .caption{
+
+    margin-top: 40px;
+}
+#about .content h3{
+    font-size: 28px;
+    font-family: Poppins, sans-serif;
+    line-height: 34px;
+}
+#about .content span{
+    color: rgb(32, 201, 151);
+}
+#about .content p{
+    font-family: Poppins, sans-serif;
+    line-height: 29px;
+}
+#about .brdr{
+    background-color: rgb(32, 201, 151);
+    width: 80px;
+    height: 3px;
+    margin: auto;
+}
+#about .brdr2{
+    width: 400px;
+    height: 1px;
+    border-top: rgba(0, 0, 0,0.1) solid;
+    border-width: 1px;
+}
+#about .cv{
+    width: 30%;
+}
+#about .cv p{
+    font-family: Poppins, sans-serif;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 15px 0;
+    color: #4c4d4d;
+}
+#about .cv .bold{
+    font-family: Poppins, sans-serif;
+    line-height: 24px;
+    font-weight: 600;
+}
+#about .cv .green{
+    font-family: Poppins, sans-serif;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(32, 201, 151);
+    transition-duration: 0.5s;
+    text-decoration: none;
+}
+#about .cv .green:hover{
+    color: rgb(27, 170, 128);
+}
+#about .caption button{
+    width: 200px;
+    height: 60px;
+    padding: 10px 10px;
+    border-radius: 35px;
+    background-color: rgb(32, 201, 151);
+    color: white;
+    border: solid rgb(32, 201, 151);
+    font-size: 16;
+    font-family: Poppins, sans-serif;
+    font-weight:500 ;
+    transition-duration: 0.5s;
+    
+}
+#about .caption button:hover{
+    background-color: rgb(27, 170, 128);
+    border-color: rgb(27, 170, 128);
+}
+#numbers{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+}
+#numbers .number{
+    width: 20%;
+    text-align: center;
+}
+#numbers .number h2{
+    font-size: 48px;
+    line-height: 62px;
+    color: rgb(108, 117, 125);
+    font-family: Poppins, sans-serif;
+    font-weight:500 ;
+}
+#numbers .number p{
+    font-family: Poppins, sans-serif;
+    line-height: 29px;
+    font-weight: 400;
+}
+#numbers .brdr{
+    height: 110px;
+    width: 1px;
+    border-left: rgba(0, 0, 0,0.1) solid;
+    border-width: 1px;
+    margin-bottom: 50px;
+}
+.number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+}
+#services{
+    padding: 50px 0;
+    background-color: rgb(248, 249, 250);
+}
+#services .brdr{
+    background-color: rgb(32, 201, 151);
+    width: 80px;
+    height: 3px;
+    margin: auto;
+}
+#services h2{
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 70px;
+    z-index: 100;
+    position: relative;
+}
+#services h2::after{
+    content: "SERVICES";
+    color: rgba(0, 0, 0,0.05);
+    z-index: 1;
+    font-size: 360%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1%;
+}
+#services .caption{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+.service .content{
+    width: 75%;
+}
+#services .service{
+    width :45%;
+    display: flex;
+}
+#services .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: rgb(32, 201, 151);
+    font-size: 30px;
+    width:80px;
+    height: 70px;
+    border-radius: 5px;
+    border: rgb(248, 249, 250);
+    margin: 0 20px;
+}
+.service h3{
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.service p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 29px;
+    font-weight: 400;
+}
+
+#resume .education{
+    width: 45%;
+    margin-bottom: 50px;
+}
+#resume h2{
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 70px;
+    z-index: 100;
+    position: relative;
+}
+#resume h2::after{
+    content: "SUMMARY";
+    color: rgba(0, 0, 0,0.05);
+    z-index: 1;
+    font-size: 360%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 2%;
+}
+#resume .brdr{
+    background-color: rgb(32, 201, 151);
+    width: 80px;
+    height: 3px;
+    margin: auto;
+}
+#resume .caption{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+#resume .caption h3{
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 600;
+    padding: 15px 0;
+    padding-left: 25px;
+}
+.content1{
+    width: 95%;
+    height: 28%;
+    border: rgba(0, 0, 0,0.1) solid;
+    border-radius: 5px;
+    border-width: 1px;
+    margin: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.period{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 15px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: rgb(32, 201, 151);
+    color: white;
+    font-size: 14;
+    font-family: Poppins, sans-serif;
+    font-weight:500 ;
+}
+.content1 h4{
+    font-family: Poppins, sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 10px;
+}
+.content1 h5{
+    color: #dc3545;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 15px;
+
+}
+.content1 p{
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #4c4d4d;
+    margin-top: 15px;
+}
+#skills{
+    padding-bottom: 50px;
+}
+#skills .info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#skills .content{
+    width: 45%;
+
+}
+#skills .caption{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+#skills h2{
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 600;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    margin-top:20px ;
+}
+#skills .caption h3{
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 16;
+    line-height: 29px;
+    margin: 10px 0;
+}
+.bar{
+    width: 95%;
+    height: 10px;
+    border-radius: 15px;
+    background-color: rgb(233, 236, 239);
+    overflow: hidden;
+    position: relative;
+}
+.bar::before{
+    content: " ";
+    width: 65%;
+    height: 10px;
+    background-color: rgb(32, 201, 151);
+    position: absolute;
+}
+.b2::before{
+    content: " ";
+    width: 95%;
+    height: 10px;
+    background-color: rgb(32, 201, 151);
+    position: absolute;
+}
+.b3::before{
+    content: " ";
+    width: 90%;
+    height: 10px;
+    background-color: rgb(32, 201, 151);
+    position: absolute;
+}
+.b4::before{
+    content: " ";
+    width: 80%;
+    height: 10px;
+    background-color: rgb(32, 201, 151);
+    position: absolute;
+}
+.b5::before{
+    content: " ";
+    width: 90%;
+    height: 10px;
+    background-color: rgb(32, 201, 151);
+    position: absolute;
+}
+.b6::before{
+    content: " ";
+    width: 99%;
+    height: 10px;
+    background-color: rgb(32, 201, 151);
+    position: absolute;
+}
+#cv-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+#cv-btn button{
+    width: 230px;
+    height: 50px;
+    padding: 10px 10px;
+    border-radius: 35px;
+    background-color: transparent;
+    color:rgb(125, 133, 140);
+    border: solid 2px rgb(125, 133, 140);
+    font-size: 16;
+    font-family: Poppins, sans-serif;
+    font-weight:500 ;
+    transition-duration: 0.5s;
+}
+#cv-btn button:hover{
+    background-color: rgb(125, 133, 140);
+    color:white;
+}
+#portfolio .brdr{
+    background-color: rgb(32, 201, 151);
+    width: 80px;
+    height: 3px;
+    margin: auto;
+}
+#portfolio h2{
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 70px;
+    z-index: 100;
+    position: relative;
+}
+#portfolio h2::after{
+    content: "PORTFOLIO";
+    color: rgba(0, 0, 0,0.05);
+    z-index: 1;
+    font-size: 360%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1%;
+}
+.portfolio-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.portfolio-navbar .navbar-list ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.portfolio-navbar .navbar-list li{
+    list-style: none;
+    text-decoration: none;
+    font-weight:400 ;
+    line-height: 24px;
+    font-family: Poppins, sans-serif;
+    color: gray;
+    margin-top: 100px;
+}
+.hvr{
+    color: gray;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.hvr:hover{
+    color:rgb(32, 201, 151);
+
+}
+.portfolio-navbar .green{
+    color:rgb(32, 201, 151);
+    position: relative;
+    
+}
+.portfolio-navbar .green::before{
+    content: " ";
+    background-color:rgb(32, 201, 151);
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    top: 30px;
+    left: -15px;
+}
+#portfolio{
+    background-color: rgb(248, 249, 250);
+}
+#portfolio .caption{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-content:stretch ; 
+    padding-bottom: 50px;
+    background-color: rgb(248, 249, 250);
+}
+#portfolio .caption img{
+    width: 100%;
+    transition-duration: 0.5s;
+}
+.imag{
+    position: relative;
+    background-image: url(../assets/images/project-1.jpg);
+    overflow: hidden;
+}
+.imag-hvr{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+    transition-duration: 1s;
+    
+}
+.imag:hover img{
+    -webkit-filter: blur(5px); 
+    filter: blur(5px);
+    transform: scale(1.1);
+}
+.imag:hover .imag-hvr{
+    display: flex;
+}
+.imag-hvr h4{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+    color: white;
+}
+.imag-hvr p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+    color: #6c757d;
+}
+#portfolio .caption .image{
+    width: 27%;
+}
+.image .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+}
+.image .container img{
+    border-radius: 5px;
+}
+#clients h2{
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 70px;
+    z-index: 100;
+    position: relative;
+}
+#clients h2::after{
+    content: "TESTIMONIAL";
+    color: rgba(0, 0, 0,0.05);
+    z-index: 1;
+    font-size: 360%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 2%;
+}
+
+#clients .brdr{
+    background-color: rgb(32, 201, 151);
+    width: 80px;
+    height: 3px;
+    margin: auto;
+}
+#clients .caption{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 100px 0;
+}
+#clients .content{
+    width: 43%;
+    height: 300px;
+    background-color: rgb(248, 249, 250);
+}
+.title2{
+    display: flex;
+    justify-content: flex-start;
+}
+.title2 .image img{
+    width: 75%;
+    border-radius: 50%;
+    
+}
+.title2 .image{
+    width: 20%;
+    padding-left: 40px;
+    padding-top: 40px;
+
+}
+.title2 .name{
+    width: 40%;
+    padding-top: 40px;
+}
+.title2 .name h3{
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    line-height: 29px;
+    font-size: 16px;
+}
+.title2 .name h4{
+    color: #6c757d;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    line-height: 29px;
+    font-size: 16px;
+}
+#clients .content p{
+    padding-left: 40px;
+    padding-top: 35px;
+    color: black;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    line-height: 29px;
+    font-size: 16px;
+}
+#clients .content .stars{
+    color: #FFC107;
+    padding-left: 40px;
+    padding-top: 30px;
+
+}
+#contact h2{
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 70px;
+    z-index: 100;
+    position: relative;
+}
+#contact{
+    padding-bottom: 50px;
+}
+#contact h2::after{
+    content: "CONTACT";
+    color: rgba(0, 0, 0,0.05);
+    z-index: 1;
+    font-size: 360%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 2%;
+}
+
+#contact .brdr{
+    background-color: rgb(32, 201, 151);
+    width: 80px;
+    height: 3px;
+    margin: auto;
+}
+#contact{
+    background-color: rgb(248, 249, 250);
+}
+.contact-btn button{
+    width: 200px;
+    height: 50px;
+    padding: 10px 10px;
+    border-radius: 35px;
+    background-color: rgb(32, 201, 151);
+    color:white;
+    border: none 2px rgb(125, 133, 140);
+    font-size: 16;
+    font-family: Poppins, sans-serif;
+    font-weight:500 ;
+    margin-top: 20px;
+    transition-duration: 0.8s;
+}
+.contact-btn button:hover{
+    background-color: rgb(27, 170, 128);
+}
+.contact-btn{
+    display: flex;
+    justify-content: center;
+}
+#contact .caption{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 0;
+    
+}
+#contact .follow{
+    width: 20%;
+    margin-left: 50px;
+}
+#contact .input{
+    width: 70%;
+}
+.follow h3{
+    font-size: 21px;
+    line-height: 25px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.follow h5{
+    font-size: 21px;
+    line-height: 25px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    
+    padding-top: 20px;
+}
+.follow p{
+    font-size: 16px;
+    line-height: 29px;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    color: #4c4d4d;
+}
+.follow i{
+    color: rgb(32, 201, 151);
+}
+.follow{
+    margin-bottom: 25px;
+}
+.input h4{
+    font-size: 21px;
+    line-height: 24px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    margin-bottom:35px ;
+}
+#name-input{
+    width: 45%;
+    margin-bottom: 20px;
+    height:50px;
+    border-color: rgba(0, 0, 0,0.2);
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #212529;
+    font-family:Poppins, sans-serif; 
+    padding-left: 10px;
+}
+#email-input{
+    width: 48%;
+    margin-bottom: 20px;
+    height:50px;
+    border-color: rgba(0, 0, 0,0.2);
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #212529;
+    font-family: Poppins, sans-serif;
+    padding-left: 10px;
+}
+.input textarea{
+    width: 100%;
+    border: solid 1px #cacece;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #212529;
+    font-family: Poppins, sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.input form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.input textarea{
+    width: 100%;
+}
+footer .caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+footer .copyrights{
+    width: 100%;
+
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    line-height: 21px;
+    
+}
+footer .copyrights span{
+    color: rgb(32, 201, 151);
+}
+footer .copyrights span:hover{
+    color: rgb(19, 156, 115);
+}
+footer .terms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    color: rgb(19, 156, 115);
+}
+footer .brdr{
+    width: 1px;
+    height: 20px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+@media screen and (min-width:769px) and (max-width:992px){
+    #home{
+        width: 100%;
+        background-position: center center;
+    }
+    #about .caption{
+        width: 100%;
+        flex-direction: column;
+        
+        
+    }
+    #about .content{
+        width:75%;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    #about .cv{
+        width:80%;
+        margin-bottom: 50px;
+    } 
+    #portfolio .caption{
+        flex-direction: column;
+    }
+    
+    #portfolio .caption .image{
+        width: 70%;
+        margin: auto;
+    }
+    #clients .caption{
+        flex-direction: column;
+    }
+    #clients .content{
+        width: 80%;
+    }
+    footer{
+        width: 100%;
+    }
+    footer .caption{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap:30px;
+
+    }
+    .copyrights{
+        width: 100%;
+        margin: 0 0;
+        text-align: center;
+    }
+    .terms{
+        width: 100%;
+        margin: 0 0;
+        gap: 0;
+    }
+    .input form{
+        flex-direction: column;
+    }
+    .input form #name-input{
+        width: 85%;
+    }
+    .input form #email-input{
+        width: 85%;
+    }
+    .input form #needs{
+        width: 85%;
+    }
+    #contact .caption .input{
+        width: 60%;
+    }
+    #contact .caption .input h4{
+        margin: 40px;
+    }
+    #contact .caption .follow{
+        width: 25%;
+    }
+}
+@media screen and (min-width:601px) and (max-width:768px){
+    #home{
+        background-size: auto;
+        background-position: center center;
+    }
+    #about .caption{
+        width: 100%;
+        flex-direction: column;
+        
+        
+    }
+    #about .content{
+        width:75%;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    #about .cv{
+        width:80%;
+        margin-bottom: 50px;
+    } 
+    #numbers{
+        flex-wrap: wrap;
+    }
+    #numbers .number{
+        width: 40%;
+    }
+    #numbers .bend{
+       display: none;
+    }
+    #services .caption .service{
+        width: 70%;
+        margin: 30px 0;
+    }
+    #resume .caption{
+        flex-direction: column;
+        
+    }
+    #resume .caption .education{
+        width: 80%;
+        margin: auto;
+    }
+    #skills .info{
+        flex-direction: column;
+    }
+    #skills .info .content{
+        width: 80%;
+    }
+    #portfolio .caption{
+        flex-direction: column;
+    }
+    
+    #portfolio .caption .image{
+        width: 80%;
+        margin: auto;
+    }
+    #clients .caption{
+        flex-direction: column;
+    }
+    #clients .content{
+        width: 80%;
+    }
+    footer{
+        width: 100%;
+    }
+    footer .caption{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap:30px;
+
+    }
+    .copyrights{
+        width: 100%;
+        margin: 0 0;
+        text-align: center;
+    }
+    .terms{
+        width: 100%;
+        margin: 0 0;
+        gap: 0;
+    }
+    .input form{
+        flex-direction: column;
+    }
+    .input form #name-input{
+        width: 85%;
+    }
+    .input form #email-input{
+        width: 85%;
+    }
+    .input form #needs{
+        width: 85%;
+    }
+    #contact .caption .input{
+        width: 60%;
+    }
+    #contact .caption .input h4{
+        margin-left: 40px;
+    }
+    #contact .caption .follow{
+        width: 25%;
+    }
+    #about .title h2{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    #services .title h2{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    #resume .title h2{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    #portfolio .title h2{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    #clients .title h2{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    #contact .title h2{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:600px){
+    #home{
+        background-position: center center;
+    }
+    #about .caption{
+        width: 100%;
+        flex-direction: column;
+        
+        
+    }
+    #home .caption h1{
+        font-size: 40px;
+    }
+    #about .content{
+        width:75%;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    #about .cv{
+        width:80%;
+        margin-bottom: 50px;
+    } 
+    #numbers{
+        flex-wrap: wrap;
+    }
+    #numbers .number{
+        width: 40%;
+    }
+    #numbers .bend{
+       display: none;
+    }
+    #services .caption .service{
+        width: 70%;
+        margin: 30px 0;
+    }
+    #resume .caption{
+        flex-direction: column;
+        
+    }
+    #resume .caption .education{
+        width: 80%;
+        margin: auto;
+    }
+    #skills .info{
+        flex-direction: column;
+    }
+    #skills .info .content{
+        width: 80%;
+    }
+    #portfolio .caption{
+        flex-direction: column;
+    }
+    
+    #portfolio .caption .image{
+        width: 80%;
+        margin: auto;
+    }
+    #clients .caption{
+        flex-direction: column;
+    }
+    #clients .content{
+        width: 95%;
+    }
+    footer{
+        width: 100%;
+    }
+    footer .caption{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap:30px;
+
+    }
+    .copyrights{
+        width: 100%;
+        margin: 0 0;
+        text-align: center;
+        
+    }
+    .terms{
+        width: 100%;
+        margin: 0 0;
+        gap: 0;
+        padding: 0 0;
+    }
+    #contact .caption{
+        flex-direction: column;
+        
+    }
+    #contact .caption .follow{
+        order: 2;
+    }
+    .input form{
+        flex-direction: column;
+    }
+    .input form #name-input{
+        width: 95%;
+    }
+    .input form #email-input{
+        width: 95%;
+    }
+    .input form #needs{
+        width: 95%;
+    }
+    #contact .caption .input{
+        width: 95%;
+    }
+    #contact .caption .input h4{
+        margin: 40px;
+    }
+    #contact .caption .follow{
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    #about .title h2::after{
+        font-size: 200%;
+        top:50px;
+    }
+    #about .title h2{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    #services .title h2{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    #services .title h2::after{
+        font-size: 200%;
+        top:50px;
+    }
+    #resume .title h2{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    #resume .title h2::after{
+        font-size: 200%;
+        top:50px;
+    }
+    #portfolio .title h2{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    #portfolio .title h2::after{
+        font-size: 200%;
+        top:50px;
+    }
+    #clients .title h2{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    #clients .title h2::after{
+        font-size: 200%;
+        top:50px;
+    }
+    #contact .title h2{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    #contact .title h2::after{
+        font-size: 200%;
+        top:50px;
+    }
+}
