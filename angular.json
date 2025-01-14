@@ -11,6 +11,9 @@
       "prefix": "app",
       "architect": {
         "build": {
+          "env": {
+            "NODE_OPTIONS": "--max-old-space-size=4096"
+          },
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "budgets": [

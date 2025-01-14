@@ -1,0 +1,29 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "src/app/app.component.css",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "angular.json",
+        "use": "@vercel/angular"
+      }
+    ],
+    "build": {
+      "env": {
+        "NODE_OPTIONS": "--max-old-space-size=4096"
+      }
+    },
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/index.html"
+      }
+    ],
+    "functions": {
+      "memory": 512,
+      "maxDuration": 10
+    }
+  }
+  
