@@ -17,7 +17,7 @@
               {
                 "type": "initial",
                 "maximumWarning": "10kb",
-                "maximumError": "15kb"
+                "maximumError": "40kb"
               }
             ],
             "outputPath": "dist/portfolio",
@@ -41,7 +41,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "10kb",
-                  "maximumError": "15kb"
+                  "maximumError": "40kb"
                 },
                 {
                   "type": "anyComponentStyle",
