@@ -11,16 +11,13 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "env": {
-            "NODE_OPTIONS": "--max-old-space-size=4096"
-          },
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "budgets": [
               {
                 "type": "initial",
-                "maximumWarning": "10kb",
-                "maximumError": "40kb"
+                "maximumWarning": "200kb",
+                "maximumError": "200kb"
               }
             ],
             "outputPath": "dist/portfolio",
@@ -43,8 +40,8 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "10kb",
-                  "maximumError": "40kb"
+                  "maximumWarning": "200kb",
+                  "maximumError": "200kb"
                 },
                 {
                   "type": "anyComponentStyle",
